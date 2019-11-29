@@ -142,3 +142,7 @@ ALTER TABLE public.listing
 COPY public.listing 
 FROM 'C:\Users\IT4F\Data\Облигации\listing_task.csv' 
 DELIMITER ';' CSV HEADER ENCODING 'WIN 1251';
+
+-- Комментарий:
+-- Нужно описание преобразования данных.
+-- И тут только первый пункт задания.
