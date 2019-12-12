@@ -191,3 +191,6 @@ ALTER TABLE bonds.bond_description
 ADD CONSTRAINT for_key_1 FOREIGN KEY ("Issuer_ID") REFERENCES bonds.listing ("ID");
 
 -- В таблицах есть общий столбец, содержащий ISIN, можно связать их по этому столбцу.
+
+-- Комментарий:
+-- А где связь listing и quotes?
